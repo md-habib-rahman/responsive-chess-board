@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.chess-container {
+  width: 100vmin;
+  height: 100vmin;
+  border: 2px solid tomato;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* gap: 0 0; */
+}
+
+.white {
+  width: 12.5vmin;
+  height: 12.5vmin;
+  background-color: #000;
+}
+.black {
+  width: 12.5vmin;
+  height: 12.5vmin;
+  background-color: #fff;
+}
